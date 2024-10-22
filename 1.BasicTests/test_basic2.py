@@ -1,9 +1,9 @@
-def somar(a,b):
+def add(a,b):
         return a + b
 
-def comprimento(list):
+def length(list):
         return len(list)
 
 def test_sum_and_len():
-        assert somar (3,2) == 5
-        assert comprimento([1,2,3,4,5]) == 5
+        assert add (3,2) == 5
+        assert length([1,2,3,4,5]) == 5
